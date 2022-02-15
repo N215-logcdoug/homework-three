@@ -1,0 +1,42 @@
+.footer {
+    max-width: $banner-footer-width;
+    height: 100px;
+    background-color: $site-blue;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    .footer-content {
+        width: $site-width;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .copyright {
+            display: flex;
+            align-items: center;
+            p {
+                font-family: GillSans;
+                font-size: 12px;
+                text-align: center;
+                color: white;
+                margin: auto;
+            }
+        }
+
+        .footer-icons {
+            width: 92px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            a {
+                font-size: 22px;
+                color: white;
+                cursor: pointer;
+            }
+            
+        }
+
+        
+    }
+}

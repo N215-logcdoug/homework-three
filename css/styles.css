@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  max-width: 980px;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url("../images/logo/logo-white.svg");
+}
+nav .links a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: GillSans;
+}
+nav .links span {
+  color: #79ADDC;
+  margin: 0 20px;
+}
+
+.banner {
+  max-width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: -80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .banner-content {
+  color: #FFFFFF;
+  text-align: center;
+  max-width: 420px;
+}
+.banner .banner-content h1 {
+  font-family: ProximaThin;
+  font-size: 60px;
+  margin-top: 30px;
+}
+.banner .banner-content p {
+  font-family: GillSansItalic;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.banner .banner-content button {
+  border: none;
+  text-align: center;
+  width: 122px;
+  height: 40px;
+  font-family: GillSans;
+  background-color: #79ADDC;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.home-form {
+  background-color: #FFFFFF;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.home-form .home-form-content {
+  max-width: 818px;
+  min-height: 200px;
+  margin: 0 auto;
+  padding-top: 58px;
+}
+.home-form .home-form-content h1 {
+  font-family: ProximaThin;
+  font-size: 60px;
+  margin-bottom: 33px;
+}
+.home-form .home-form-content .form-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.home-form .home-form-content .form-row input {
+  height: 58px;
+  border-color: #79ADDC;
+  border-width: 2px;
+  border-style: solid;
+  font-family: GillSansLight;
+  color: #000000;
+  font-size: 18px;
+  padding: 18px;
+}
+.home-form .home-form-content .form-row button {
+  border: none;
+  border-radius: 30px;
+  background-color: #79ADDC;
+  color: #FFFFFF;
+  font-family: GillSans;
+  font-size: 15px;
+  cursor: pointer;
+  height: 58px;
+  width: 100%;
+  margin-top: 13px;
+}
+.home-form .home-form-content .form-row p {
+  font-family: GillSansLight;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 14px;
+}
+.home-form .home-form-content .form-row textarea {
+  width: 100%;
+  height: 192px;
+  border-color: #79ADDC;
+  border-width: 2px;
+  border-style: solid;
+  font-family: GillSansLight;
+  color: #000000;
+  font-size: 18px;
+  padding: 18px;
+}
+.home-form .home-form-content .form-row .form-amounts {
+  width: 214px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-form .home-form-content .form-row .form-amounts select {
+  width: 103px;
+  height: 58px;
+  border-color: #79ADDC;
+  border-width: 2px;
+  border-style: solid;
+  font-family: GillSansLight;
+  color: #000000;
+  font-size: 18px;
+  padding: 18px;
+}
+
+@font-face {
+  font-family: GillSansBold;
+  src: url(../css/fonts/Gill-Sans-Bold.otf);
+}
+@font-face {
+  font-family: GillSansCondensed;
+  src: url(../css/fonts/Gill-Sans-Condensed.otf);
+}
+@font-face {
+  font-family: GillSans;
+  src: url(../css/fonts/Gill-Sans.otf);
+}
+@font-face {
+  font-family: GillSansItalic;
+  src: url(../css/fonts/Gill-Sans-Italic.otf);
+}
+@font-face {
+  font-family: GillSansLight;
+  src: url(../css/fonts/Gill-Sans-Light.otf);
+}
+@font-face {
+  font-family: GillSansMedium;
+  src: url(../css/fonts/Gill-Sans-Medium.otf);
+}
+@font-face {
+  font-family: ProximaThin;
+  src: url(../css/fonts/Proxima-Nova-ExCn-Thin.otf);
+}
+.three-boxes-holder {
+  max-height: 300px;
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+.three-boxes-holder .three-boxes {
+  height: 304px;
+  width: 818px;
+  margin-top: -43px;
+  display: flex;
+  justify-content: space-between;
+}
+.three-boxes-holder .three-boxes .box {
+  width: 236px;
+  height: 304px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.three-boxes-holder .three-boxes .box h1 {
+  font-family: ProximaThin;
+  font-size: 60px;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+.three-boxes-holder .three-boxes .box h2 {
+  font-family: ProximaThin;
+  font-size: 30px;
+  color: #FFFFFF;
+  margin-top: 4px;
+}
+.three-boxes-holder .three-boxes .box button {
+  width: 133px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #79ADDC;
+  color: #FFFFFF;
+  font-family: GillSans;
+  margin-top: 59px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.footer {
+  max-width: 1280px;
+  height: 100px;
+  background-color: #79ADDC;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.footer .footer-content {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer-content .copyright {
+  display: flex;
+  align-items: center;
+}
+.footer .footer-content .copyright p {
+  font-family: GillSans;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+.footer .footer-content .footer-icons {
+  width: 92px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer .footer-content .footer-icons a {
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */

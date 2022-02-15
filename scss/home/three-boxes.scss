@@ -1,0 +1,57 @@
+.three-boxes-holder {
+    max-height: 300px;
+    max-width: $banner-footer-width;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: $site-white;
+
+    .three-boxes {
+        height: 304px;
+        width: $home-form-width;
+        margin-top: -43px;
+        display: flex;
+        justify-content: space-between;
+
+        .box {
+            width: 236px;
+            height: 304px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: (rgba($site-black,0.5));
+            background-blend-mode: multiply;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h1 {
+                font-family: ProximaThin;
+                font-size: 60px;
+                color: $site-white;
+                margin-bottom: 0;
+            }
+
+            h2 {
+                font-family: ProximaThin;
+                font-size: 30px;
+                color: $site-white;
+                margin-top: 4px;
+            }
+
+            button {
+                width: 133px;
+                height: 40px;
+                border: none;
+                border-radius: 20px;
+                background-color: $site-blue;
+                color: $site-white;
+                font-family: GillSans;
+                margin-top: 59px;
+                font-size: 15px;
+                cursor: pointer;
+            }
+        }
+    }
+}

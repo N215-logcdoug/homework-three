@@ -1,0 +1,31 @@
+nav {
+    max-width: $site-width;
+    height: 80px;
+    margin: 0 auto;
+    border-bottom: 2px solid $site-white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+
+    .logo {
+        width: 92px;
+        height: 42px;
+        background-image: url("../images/logo/logo-white.svg");
+    }
+
+    .links {
+        a {
+            color: $site-white;
+            text-decoration: none;
+            font-family: GillSans;
+        }
+
+        span {
+            color: $site-blue;
+            margin: 0 20px;
+        }
+    }
+}
+

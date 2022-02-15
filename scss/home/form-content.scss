@@ -1,0 +1,94 @@
+.home-form {
+    background-color: $site-white;
+    max-width: $banner-footer-width;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    .home-form-content {
+        max-width: $home-form-width;
+        min-height: 200px;
+        margin: $center;
+        padding-top: 58px;
+    
+        h1 {
+            font-family: ProximaThin;
+            font-size: 60px;
+            margin-bottom: 33px;
+            
+        }
+    
+        .form-row {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+
+            input {
+                height: 58px;
+                border-color: $site-blue;
+                border-width: 2px;
+                border-style: solid;
+                font-family: GillSansLight;
+                color: $site-black;
+                font-size: 18px;
+                padding: 18px;
+            }
+
+            button{
+                border: none;
+                border-radius: 30px;
+                background-color: $site-blue;
+                color: $site-white;
+                font-family: GillSans;
+                font-size: 15px;
+                cursor: pointer;
+                height: 58px;
+                width: 100%;
+                margin-top: 13px;
+            }
+
+            p {
+                font-family: GillSansLight;
+                font-size: 18px;
+                text-align: center;
+                margin-top: 14px;
+            }
+
+            textarea {
+                width: 100%;
+                height: 192px;
+                border-color: $site-blue;
+                border-width: 2px;
+                border-style: solid;
+                font-family: GillSansLight;
+                color: $site-black;
+                font-size: 18px;
+                padding: 18px;
+
+            }
+
+            .form-amounts {
+                width: 214px;
+                height: 58px;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                justify-content: space-between;
+
+                select {
+                    width: 103px;
+                    height: 58px;
+                    border-color: $site-blue;
+                    border-width: 2px;
+                    border-style: solid;
+                    font-family: GillSansLight;
+                    color: $site-black;
+                    font-size: 18px;
+                    padding: 18px;
+                }
+            }
+        }
+    }
+}
+

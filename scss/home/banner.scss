@@ -1,0 +1,47 @@
+.banner {
+    max-width: $banner-footer-width;
+    height: $banner-height;
+    background-image: linear-gradient(
+        rgba($site-black, 0.5), 
+        rgba($site-black, 0.5)
+        ), 
+        url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 auto;
+    margin-top: -80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    .banner-content {
+
+        color: $site-white;
+        text-align: center;
+        max-width: 420px;
+        h1 {
+            font-family: ProximaThin;
+            font-size: 60px;
+            margin-top: 30px;
+        }
+
+        p {
+            font-family: GillSansItalic;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+        button {
+            border: none;
+            text-align: center;
+            width: 122px;
+            height: 40px;
+            font-family: GillSans;
+            background-color: $site-blue;
+            color: white;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+    }
+}
